@@ -1,0 +1,19 @@
+<ion-app>
+  <ion-menu contentId="main">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <ion-list>
+        <ion-item (click)="presentAlert()">
+          <ion-icon name="log-out" slot="start"> </ion-icon>
+          <ion-label> Logout</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

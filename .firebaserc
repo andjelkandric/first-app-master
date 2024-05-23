@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "first-app-3f704": {
+      "hosting": {
+        "app": [
+          "first-app-3f704"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "first-app-3f704"
+  }
+}

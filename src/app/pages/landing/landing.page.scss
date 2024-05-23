@@ -1,0 +1,36 @@
+// .container {
+//   text-align: center; /* Center content horizontally */
+// }
+
+// // ion-img {
+// //   max-width: 100%; /* Ensure the image does not exceed its container's width */
+// // }
+ion-content {
+  --background: url("../../../assets/m.jpg") no-repeat center/cover fixed;
+}
+.bi {
+  max-height: 100%;
+  max-width: 100%;
+  background-image: url("../../../assets/wel.webp");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+}
+
+// /* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 20px; /* Add some padding to the container */
+  }
+}
+
+/* Adjustments for larger screens */
+@media screen and (min-width: 900px) {
+  .container {
+    max-width: 600px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  .fab-container {
+    margin-bottom: 50px; /* Increase bottom margin for the FAB button */
+  }
+}
